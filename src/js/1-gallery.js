@@ -82,6 +82,7 @@ const galleryMarkup = images.map(({ preview, original, description }) => {
 galleryContainer.innerHTML = galleryMarkup;
 
 const gallery = new SimpleLightbox('.gallery a', { 
+  captionsData: 'alt',
   captionPosition: 'bottom', 
   captionDelay: 250,
 });

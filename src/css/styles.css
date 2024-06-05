@@ -38,3 +38,40 @@
   width: 360px;
   height: 300px;
 }
+
+.feedback-form {
+  border-radius: 8px;
+  border: #4e75ff;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.label-form {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-form,
+.textarea-form {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.button-form {
+  padding: 5px 10px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 95px;
+}
+
+.button-form:hover {
+  background-color: #0056b3;
+}
